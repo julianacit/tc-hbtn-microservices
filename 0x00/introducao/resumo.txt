@@ -1,0 +1,10 @@
+Quando iniciamos nossos estudos voltados à aplicações web, com o intuito de facilitar, sempre pensamos em uma aplicação
+como monolítica, ou seja, criamos uma única aplicação que serve a todos nossos propósitos, de forma que sempre reiniciamos
+a aplicação toda quando uma mudança foi realizada, o que não é um problema, já que estamos desenvolvendo uma aplicação
+teste em que não haverá grandes consequências se não estiver disponível por alguns instantes.
+Porém, em grandes websites e aplicações, temos ciência de que uma queda, mesmo que momentânea, causaria diversos prejuízos,
+além de reclamações de clientes onde a aplicação poderia até mesmo ser considerada instável.
+Assim, tendo outras arquiteturas em intermédio com diferentes problemas resolvidos, surgiu os microsserviços. Com eles
+é possível separar a aplicação em serviços menores e de certa forma independentes, para que, durante o desenvolvimento e
+atualização desses serviços que compõem a aplicação, a mesma continue funcionando independente, facilitando tanto para os
+desenvolvedores quanto para os clientes finais.
