@@ -8,3 +8,7 @@ Assim, tendo outras arquiteturas em intermédio com diferentes problemas resolvi
 é possível separar a aplicação em serviços menores e de certa forma independentes, para que, durante o desenvolvimento e
 atualização desses serviços que compõem a aplicação, a mesma continue funcionando independente, facilitando tanto para os
 desenvolvedores quanto para os clientes finais.
+Para a comunicação síncrona entre esses microsserviços é utilizado o protocolo HTTP, com um gateway para ser o receptor
+geral, podendo utilizar por exemplo o HTTP Rest com requisições e retornos com JSON. Já a assíncrona pode ser utilizando
+o protocolo AMPQ, ele apenas recebe a requisição e notifica o microsserviço necessário através de uma mensagem, não esperando nenhum
+retorno por parte da mesma.
