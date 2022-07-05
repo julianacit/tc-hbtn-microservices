@@ -1,2 +1,24 @@
 Resumo Arquitetura Serverless e FaaS
 
+    A computação em nuvem é definida pela disponibilização de serviços como servidores e bancos de dados através
+da rede. Isso significa que para a criação de uma aplicação distribuída em rede, não é necessário se dispor de
+hardware para a criação de servidores ou para o armazenamento de dados, isso pode ser contratado e realizado pela
+internet, onde empresas especializadas fornecem esses serviços, o que facilita o desenvolvimetno de diversas formas.
+    A arquitetura servless é um modelo de desenvolvimento em nuvem sem o gerenciamento do servidor.
+Diferente de outras arquiteturas em nuvem em que o provedor precisa gerenciar a infraestrutura da nuvem,
+ela é implantada em containers que são iniciados apenas quando são chamados. Ou seja, os recursos são alocados
+dinamicamente conforme a necessidade da aplicação, sendo assim se torna mais econômica e eficiente, além de ser
+mais fácil de gerenciar por parte dos desenvolvedores.
+    Já o FaaS (Function as Service) é um serviço de computação em nuvem em que não é necessário se preocupar com
+a infraestrutura ou manutenção. É orientado a eventos, e esses eventos são executados em containers, ou seja, leva
+em conta a arquitetura servless, adicionando a questão de não ser necessário se preocupar com o servidor.
+    Sendo assim, utilizar arquiteturas servless traz benefícios como aumento de produtividade dos desenvolvedores
+por não precisarem se preocupar com o servidor, ela possui uma escalabilidade, o valor é correspondente ao uso, o que
+em muitos casos gera uma grande economia, e não há restrições quanto ao uso de linguagem de programação.
+    Em termos de comparação, a arquitetura monolítica é a mais antiga, onde toda a aplicação está centralizada e
+seu gerenciamento deve ser realizado sempre considerando o todo, assim ela se torna amarrada, o que dificulta o trabalho
+do desenvolvedor. Já a arquitetura de microsserviços auxilia dividindo a aplicação em diversos serviços que funcionam
+em conjunto para dar o resultado final. O desenvolvimento se torna facilitado e vem com vantagens como a possibilidade
+de gerenciamento da aplicação sem ter que considerar o todo. Já a arquitetura servless auxilia ainda mais com a questão
+de delegar a parte do servidor e outros serviços parecidos, além de trazer benefícios com sua escalabilidade e ausência
+de necessidade de gerenciamento.
